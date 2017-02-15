@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # phone_numer_picker
 Odoo Phone Number Picker
 
@@ -11,3 +12,6 @@ For download and how to use the module, please refer to the following link: [Odo
 
 
 
+=======
+# phone_number_picker
+>>>>>>> 84b300cd45f0610071fb67c0b6facdc880ece178

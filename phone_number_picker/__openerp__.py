@@ -3,7 +3,6 @@
     'name': "Phone Number Picker",
 
     'summary': """
-        A Phone Number Picker Module
         """,
 
     'description': """
@@ -13,14 +12,16 @@
     'author': "Walid Mashal",
     'website': "https://github.com/walid-netlinks",
 
-    'category': 'Uncategorized',
+    'category': 'Extra Tools',
     'version': '1.0',
+    'application': True,
 
     'depends': ['base', 'web'],
 
     'data': [
         'views/templates.xml',
     ],
+    
     'qweb': [
         'static/src/xml/*.xml',
     ],

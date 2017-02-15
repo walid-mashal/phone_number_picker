@@ -1,5 +1,4 @@
-# phone_number_picker
-Odoo Phone Number Picker
+# Phone Number Picker
 
 Odoo Module For easy phone number entering
 

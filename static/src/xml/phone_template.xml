@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="phone_template" xml:space="preserve">
+    <t t-name="FieldPhone">
+        <div id="dialWrapper">
+            <t t-if="!widget.get('effective_readonly')">
+               <div>
+                    <input id="phoneNo" t-att-name="widget.name" type="text"/>
+                    <span id="dialIcon" class="fa fa-phone o_datepicker_button"></span>
+                </div>
+            </t>
+            <t t-if="widget.get('effective_readonly')">
+                <span class="oe_form_field oe_form_char_content"></span>
+            </t>
+        </div>
+    </t>
+</templates>

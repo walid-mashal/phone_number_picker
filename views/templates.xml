@@ -1,0 +1,10 @@
+<openerp>
+    <data>
+        <template id="web_extension_assets" name="web_extensions" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="phone_number_picker/static/src/js/phone_widget.js"></script>
+                <link rel="stylesheet" href="phone_number_picker/static/src/css/base.css" type="text/css"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
